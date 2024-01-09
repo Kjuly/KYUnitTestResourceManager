@@ -10,6 +10,7 @@
 		7FCAC79F2B4D4AFA00C72C5E /* KYUnitTestResourceManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCAC7962B4D4AFA00C72C5E /* KYUnitTestResourceManager.framework */; };
 		7FCAC7A42B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCAC7A32B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.swift */; };
 		7FCAC7A52B4D4AFA00C72C5E /* KYUnitTestResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCAC7992B4D4AFA00C72C5E /* KYUnitTestResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FCAC7C12B4D515400C72C5E /* KYUnitTestResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCAC7C02B4D515400C72C5E /* KYUnitTestResourceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,7 @@
 		7FCAC79E2B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYUnitTestResourceManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCAC7A32B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYUnitTestResourceManagerTests.swift; sourceTree = "<group>"; };
 		7FCAC7B02B4D4C0800C72C5E /* KYUnitTestResourceManager.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = KYUnitTestResourceManager.xctestplan; sourceTree = "<group>"; };
+		7FCAC7C02B4D515400C72C5E /* KYUnitTestResourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYUnitTestResourceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		7FCAC7AE2B4D4B0E00C72C5E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				7FCAC7C02B4D515400C72C5E /* KYUnitTestResourceManager.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				TargetAttributes = {
 					7FCAC7952B4D4AFA00C72C5E = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 					7FCAC79D2B4D4AFA00C72C5E = {
 						CreatedOnToolsVersion = 15.0;
@@ -224,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCAC7C12B4D515400C72C5E /* KYUnitTestResourceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +380,7 @@
 		7FCAC7A92B4D4AFA00C72C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -397,6 +403,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -405,6 +412,7 @@
 		7FCAC7AA2B4D4AFA00C72C5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -435,6 +443,7 @@
 		7FCAC7AC2B4D4AFA00C72C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -450,6 +459,7 @@
 		7FCAC7AD2B4D4AFA00C72C5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
