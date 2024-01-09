@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "09EB8F22-9069-4E3B-82B3-9C5427D1D83C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:KYUnitTestResourceManager.xcodeproj",
+          "identifier" : "7FCAC7952B4D4AFA00C72C5E",
+          "name" : "KYUnitTestResourceManager"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:KYUnitTestResourceManager.xcodeproj",
+        "identifier" : "7FCAC79D2B4D4AFA00C72C5E",
+        "name" : "KYUnitTestResourceManagerTests"
+      }
+    }
+  ],
+  "version" : 1
+}
