@@ -21,7 +21,6 @@
   },
   "testTargets" : [
     {
-      "parallelizable" : true,
       "target" : {
         "containerPath" : "container:KYUnitTestResourceManager.xcodeproj",
         "identifier" : "7FCAC79D2B4D4AFA00C72C5E",

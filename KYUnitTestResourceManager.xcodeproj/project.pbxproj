@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F1E16E92B4D527800B05FF4 /* KYUnitTestResourceDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E16E22B4D527700B05FF4 /* KYUnitTestResourceDefaults.swift */; };
+		7F1E16EA2B4D527800B05FF4 /* KYUnitTestResourceManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E16E32B4D527700B05FF4 /* KYUnitTestResourceManagerError.swift */; };
+		7F1E16EB2B4D527800B05FF4 /* KYUnitTestResourceManager+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E16E42B4D527700B05FF4 /* KYUnitTestResourceManager+Download.swift */; };
+		7F1E16EC2B4D527800B05FF4 /* KYUnitTestResourceManager+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E16E52B4D527700B05FF4 /* KYUnitTestResourceManager+Log.swift */; };
+		7F1E16ED2B4D527800B05FF4 /* KYUnitTestResourceManager+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E16E62B4D527800B05FF4 /* KYUnitTestResourceManager+Cache.swift */; };
+		7F1E16EE2B4D527800B05FF4 /* URL+KYUnitTestResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E16E82B4D527800B05FF4 /* URL+KYUnitTestResourceManager.swift */; };
+		7F1E17092B4D797300B05FF4 /* KYUnitTestResourceDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E17082B4D797300B05FF4 /* KYUnitTestResourceDefaultsTests.swift */; };
+		7F1E170B2B4D82A500B05FF4 /* KYUnitTestResourceManager_DownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E170A2B4D82A500B05FF4 /* KYUnitTestResourceManager_DownloadTests.swift */; };
+		7F1E170D2B4D82B000B05FF4 /* KYUnitTestResourceManager_CacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E170C2B4D82B000B05FF4 /* KYUnitTestResourceManager_CacheTests.swift */; };
+		7F1E170F2B4D8FEB00B05FF4 /* KYUnitTestResourceManagerErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E170E2B4D8FEB00B05FF4 /* KYUnitTestResourceManagerErrorTests.swift */; };
 		7FCAC79F2B4D4AFA00C72C5E /* KYUnitTestResourceManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCAC7962B4D4AFA00C72C5E /* KYUnitTestResourceManager.framework */; };
 		7FCAC7A42B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCAC7A32B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.swift */; };
 		7FCAC7A52B4D4AFA00C72C5E /* KYUnitTestResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCAC7992B4D4AFA00C72C5E /* KYUnitTestResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F1E16E22B4D527700B05FF4 /* KYUnitTestResourceDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYUnitTestResourceDefaults.swift; sourceTree = "<group>"; };
+		7F1E16E32B4D527700B05FF4 /* KYUnitTestResourceManagerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYUnitTestResourceManagerError.swift; sourceTree = "<group>"; };
+		7F1E16E42B4D527700B05FF4 /* KYUnitTestResourceManager+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KYUnitTestResourceManager+Download.swift"; sourceTree = "<group>"; };
+		7F1E16E52B4D527700B05FF4 /* KYUnitTestResourceManager+Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KYUnitTestResourceManager+Log.swift"; sourceTree = "<group>"; };
+		7F1E16E62B4D527800B05FF4 /* KYUnitTestResourceManager+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KYUnitTestResourceManager+Cache.swift"; sourceTree = "<group>"; };
+		7F1E16E82B4D527800B05FF4 /* URL+KYUnitTestResourceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+KYUnitTestResourceManager.swift"; sourceTree = "<group>"; };
+		7F1E17082B4D797300B05FF4 /* KYUnitTestResourceDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYUnitTestResourceDefaultsTests.swift; sourceTree = "<group>"; };
+		7F1E170A2B4D82A500B05FF4 /* KYUnitTestResourceManager_DownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYUnitTestResourceManager_DownloadTests.swift; sourceTree = "<group>"; };
+		7F1E170C2B4D82B000B05FF4 /* KYUnitTestResourceManager_CacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYUnitTestResourceManager_CacheTests.swift; sourceTree = "<group>"; };
+		7F1E170E2B4D8FEB00B05FF4 /* KYUnitTestResourceManagerErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYUnitTestResourceManagerErrorTests.swift; sourceTree = "<group>"; };
 		7FCAC7962B4D4AFA00C72C5E /* KYUnitTestResourceManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KYUnitTestResourceManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCAC7992B4D4AFA00C72C5E /* KYUnitTestResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYUnitTestResourceManager.h; sourceTree = "<group>"; };
 		7FCAC79E2B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYUnitTestResourceManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +71,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F1E16E72B4D527800B05FF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F1E16E82B4D527800B05FF4 /* URL+KYUnitTestResourceManager.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7F1E17052B4D77A400B05FF4 /* ResourceManager */ = {
+			isa = PBXGroup;
+			children = (
+				7FCAC7C02B4D515400C72C5E /* KYUnitTestResourceManager.swift */,
+				7F1E16E42B4D527700B05FF4 /* KYUnitTestResourceManager+Download.swift */,
+				7F1E16E62B4D527800B05FF4 /* KYUnitTestResourceManager+Cache.swift */,
+				7F1E16E52B4D527700B05FF4 /* KYUnitTestResourceManager+Log.swift */,
+				7F1E16E32B4D527700B05FF4 /* KYUnitTestResourceManagerError.swift */,
+			);
+			path = ResourceManager;
+			sourceTree = "<group>";
+		};
+		7F1E17062B4D77C900B05FF4 /* ResourceManager */ = {
+			isa = PBXGroup;
+			children = (
+				7FCAC7A32B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.swift */,
+				7F1E170A2B4D82A500B05FF4 /* KYUnitTestResourceManager_DownloadTests.swift */,
+				7F1E170C2B4D82B000B05FF4 /* KYUnitTestResourceManager_CacheTests.swift */,
+				7F1E170E2B4D8FEB00B05FF4 /* KYUnitTestResourceManagerErrorTests.swift */,
+			);
+			path = ResourceManager;
+			sourceTree = "<group>";
+		};
 		7FCAC78C2B4D4AFA00C72C5E = {
 			isa = PBXGroup;
 			children = (
@@ -82,7 +133,8 @@
 		7FCAC7A22B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				7FCAC7A32B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.swift */,
+				7F1E17082B4D797300B05FF4 /* KYUnitTestResourceDefaultsTests.swift */,
+				7F1E17062B4D77C900B05FF4 /* ResourceManager */,
 			);
 			path = KYUnitTestResourceManagerTests;
 			sourceTree = "<group>";
@@ -90,7 +142,9 @@
 		7FCAC7AE2B4D4B0E00C72C5E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7FCAC7C02B4D515400C72C5E /* KYUnitTestResourceManager.swift */,
+				7F1E16E22B4D527700B05FF4 /* KYUnitTestResourceDefaults.swift */,
+				7F1E17052B4D77A400B05FF4 /* ResourceManager */,
+				7F1E16E72B4D527800B05FF4 /* Extensions */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -228,7 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1E16ED2B4D527800B05FF4 /* KYUnitTestResourceManager+Cache.swift in Sources */,
+				7F1E16EE2B4D527800B05FF4 /* URL+KYUnitTestResourceManager.swift in Sources */,
+				7F1E16EC2B4D527800B05FF4 /* KYUnitTestResourceManager+Log.swift in Sources */,
 				7FCAC7C12B4D515400C72C5E /* KYUnitTestResourceManager.swift in Sources */,
+				7F1E16EB2B4D527800B05FF4 /* KYUnitTestResourceManager+Download.swift in Sources */,
+				7F1E16EA2B4D527800B05FF4 /* KYUnitTestResourceManagerError.swift in Sources */,
+				7F1E16E92B4D527800B05FF4 /* KYUnitTestResourceDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FCAC7A42B4D4AFA00C72C5E /* KYUnitTestResourceManagerTests.swift in Sources */,
+				7F1E17092B4D797300B05FF4 /* KYUnitTestResourceDefaultsTests.swift in Sources */,
+				7F1E170F2B4D8FEB00B05FF4 /* KYUnitTestResourceManagerErrorTests.swift in Sources */,
+				7F1E170D2B4D82B000B05FF4 /* KYUnitTestResourceManager_CacheTests.swift in Sources */,
+				7F1E170B2B4D82A500B05FF4 /* KYUnitTestResourceManager_DownloadTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +353,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
