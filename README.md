@@ -9,6 +9,8 @@ Unit test resource manager.
 
 ## Usage
 
+Demo is available under [/KYUnitTestResourceManagerTests](https://github.com/Kjuly/KYUnitTestResourceManager/tree/main/KYUnitTestResourceManagerTests).
+
 For details, please refer to Apple's official document ["Asynchronous Tests and Expectations"](https://developer.apple.com/documentation/xctest/asynchronous_tests_and_expectations).
 
 ## Resources
