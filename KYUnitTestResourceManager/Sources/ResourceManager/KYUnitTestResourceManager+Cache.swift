@@ -70,7 +70,7 @@ extension KYUnitTestResourceManager {
       return
     }
 
-    let cachedFileURL: URL = localFileURL.toCachedFileForUnitTesting()
+    let cachedFileURL: URL = localFileURL.ky_toCachedFileForUnitTesting()
 
     // Cache resource file only if the same cache does not exist.
     if fileManager.fileExists(atPath: cachedFileURL.path) {

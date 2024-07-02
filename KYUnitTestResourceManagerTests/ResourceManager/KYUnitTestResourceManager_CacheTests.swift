@@ -27,7 +27,7 @@ final class KYUnitTestResourceManager_CacheTests: XCTestCase {
   func testCacheOneFile() async throws {
     let filename: String = KYUnitTestResourceFilename.image_png_01_small
     let localFileURL: URL = KYUnitTestResourceManager.localFileURL(with: filename)
-    let cachedFileURL: URL = localFileURL.toCachedFileForUnitTesting()
+    let cachedFileURL: URL = localFileURL.ky_toCachedFileForUnitTesting()
 
     let fileManager: FileManager = .default
     defer {
@@ -86,9 +86,9 @@ final class KYUnitTestResourceManager_CacheTests: XCTestCase {
     let localFileURL_01: URL = KYUnitTestResourceManager.localFileURL(with: filename_01)
     let localFileURL_02: URL = KYUnitTestResourceManager.localFileURL(with: filename_02)
     let localFileURL_03: URL = KYUnitTestResourceManager.localFileURL(with: filename_03)
-    let cachedFileURL_01: URL = localFileURL_01.toCachedFileForUnitTesting()
-    let cachedFileURL_02: URL = localFileURL_02.toCachedFileForUnitTesting()
-    let cachedFileURL_03: URL = localFileURL_03.toCachedFileForUnitTesting()
+    let cachedFileURL_01: URL = localFileURL_01.ky_toCachedFileForUnitTesting()
+    let cachedFileURL_02: URL = localFileURL_02.ky_toCachedFileForUnitTesting()
+    let cachedFileURL_03: URL = localFileURL_03.ky_toCachedFileForUnitTesting()
 
     let localFileURLs: [URL] = [localFileURL_01, localFileURL_02, localFileURL_03]
 
@@ -183,9 +183,9 @@ final class KYUnitTestResourceManager_CacheTests: XCTestCase {
     let localFileURL_01: URL = KYUnitTestResourceManager.localFileURL(with: filename_01)
     let localFileURL_02: URL = KYUnitTestResourceManager.localFileURL(with: filename_02)
     let localFileURL_03: URL = KYUnitTestResourceManager.localFileURL(with: filename_03)
-    let cachedFileURL_01: URL = localFileURL_01.toCachedFileForUnitTesting()
-    let cachedFileURL_02: URL = localFileURL_02.toCachedFileForUnitTesting()
-    let cachedFileURL_03: URL = localFileURL_03.toCachedFileForUnitTesting()
+    let cachedFileURL_01: URL = localFileURL_01.ky_toCachedFileForUnitTesting()
+    let cachedFileURL_02: URL = localFileURL_02.ky_toCachedFileForUnitTesting()
+    let cachedFileURL_03: URL = localFileURL_03.ky_toCachedFileForUnitTesting()
 
     let fileManager: FileManager = .default
     defer {

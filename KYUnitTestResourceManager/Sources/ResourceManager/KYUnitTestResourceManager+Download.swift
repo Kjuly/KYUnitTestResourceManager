@@ -31,13 +31,13 @@ extension KYUnitTestResourceManager {
 
     // Check if the local file exists.
     let localFileURL: URL = localFileURL(with: filename)
-    if localFileURL.localFileExists() {
+    if localFileURL.ky_localFileExists() {
       _log("Use existing file \"\(filename)\"")
       return localFileURL
     }
 
     // Check if the cache file exists.
-    let cachedFileURL: URL = localFileURL.toCachedFileForUnitTesting()
+    let cachedFileURL: URL = localFileURL.ky_toCachedFileForUnitTesting()
     if FileManager.default.fileExists(atPath: cachedFileURL.path) {
       try FileManager.default.copyItem(at: cachedFileURL, to: localFileURL)
       _log("Use cached file \"\(filename)\"")

@@ -11,12 +11,12 @@ import Foundation
 extension URL {
 
   /// Check whether the local file exists or not.
-  func localFileExists() -> Bool {
+  func ky_localFileExists() -> Bool {
     return FileManager.default.fileExists(atPath: self.path)
   }
 
   /// Convert to cached file URL.
-  func toCachedFileForUnitTesting() -> URL {
+  func ky_toCachedFileForUnitTesting() -> URL {
     return KYUnitTestResourceManager.cacheCenterBaseURL.appendingPathComponent(self.lastPathComponent)
   }
 }
