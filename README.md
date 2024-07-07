@@ -1,6 +1,8 @@
 # KYUnitTestResourceManager
 Unit test resource manager.
 
+Asynchronously download and cache tiny image, video, or audio files to your simulator during unit testing.
+
 ![macOS][macOS-Badge] ![iOS][iOS-Badge] ![watchOS][watchOS-Badge]  
 
 [macOS-Badge]: https://img.shields.io/badge/macOS-12.0%2B-blue?labelColor=00367A&color=3081D0
