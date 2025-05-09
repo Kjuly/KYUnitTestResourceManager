@@ -22,7 +22,7 @@ public struct KYUnitTestResourceManager {
 
   /// Get a local file URL with a filename.
   public static func localFileURL(with filename: String) -> URL {
-    return Self.localBaseURL.appendingPathComponent(filename)
+    localBaseURL.appendingPathComponent(filename)
   }
 
   /// Get a remote file URL for a resource type with filename.
@@ -34,6 +34,6 @@ public struct KYUnitTestResourceManager {
   /// - Returns: A remote file URL, nil if invalid.
   ///
   public static func remoteFileURL(for type: KYUnitTestResourceType, with filename: String) -> URL? {
-    return URL(string: type.folderName + "/" + filename, relativeTo: Self.remoteBaseURL)
+    remoteBaseURL.appendingPathComponent(type.folderName + "/" + filename)
   }
 }

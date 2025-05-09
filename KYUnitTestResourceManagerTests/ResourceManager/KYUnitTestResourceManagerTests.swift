@@ -53,10 +53,10 @@ final class KYUnitTestResourceManagerTests: XCTestCase {
   func testRemoteFileURL() throws {
     let baseURL = URL(string: "https://raw.githubusercontent.com/Kjuly/unit-test-resources/main")
     XCTAssertEqual(KYUnitTestResourceManager.remoteFileURL(for: .image, with: "abc.jpg"),
-                   URL(string: "images/abc.jpg", relativeTo: baseURL))
+                   baseURL?.appendingPathComponent("images/abc.jpg"))
     XCTAssertEqual(KYUnitTestResourceManager.remoteFileURL(for: .video, with: "abc.mp4"),
-                   URL(string: "videos/abc.mp4", relativeTo: baseURL))
+                   baseURL?.appendingPathComponent("videos/abc.mp4"))
     XCTAssertEqual(KYUnitTestResourceManager.remoteFileURL(for: .audio, with: "abc.mp3"),
-                   URL(string: "audios/abc.mp3", relativeTo: baseURL))
+                   baseURL?.appendingPathComponent("audios/abc.mp3"))
   }
 }
